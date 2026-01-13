@@ -1,38 +1,81 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Whambuoy | Cybersecurity Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>About | Whambuoy</title>
+  <link rel="stylesheet" href="assets/css/style.css"/>
 </head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="writeups.html">Write-ups</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <div class="card">
-    <h1>Whambuoy</h1>
-    <p class="muted">ALX Cybersecurity • SOC-first • Web Security / Pentesting portfolio</p>
-    <p>
-      I’m building hands-on cybersecurity skills through ALX, TryHackMe, and PortSwigger—focused on
-      SOC analysis (logs, triage, incident basics) while growing a web security portfolio.
-    </p>
+  <div class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span> Whambuoy</a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a class="active" href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="writeups.html">Write-ups</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>What I’m aiming for</h2>
-    <ul>
-      <li>Junior SOC / Security Analyst internship or entry role</li>
-      <li>Strong documentation + clear write-ups</li>
-      <li>Web security specialization (OWASP Top 10, Burp Suite)</li>
-    </ul>
-  </div>
+  <main class="container">
+    <section class="hero">
+      <div class="kicker"><span class="dot"></span> About</div>
+      <h1>My approach: learn by doing, then explain it clearly.</h1>
+      <p class="sub">
+        I’m an ALX cybersecurity learner. I like practical labs, real-world thinking, and clean write-ups that show
+        <strong>how I reason</strong>—not just what tools I ran.
+      </p>
+    </section>
 
-  <footer>© 2026 Whambuoy • Built on GitHub Pages</footer>
+    <div class="grid twocol">
+      <div class="card">
+        <h2>Core focus</h2>
+        <ul class="list">
+          <li><strong>SOC:</strong> alert triage, log analysis, incident basics</li>
+          <li><strong>Web security:</strong> OWASP Top 10, PortSwigger labs, Burp Suite</li>
+          <li><strong>Foundations:</strong> networking, Linux, Windows concepts</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Tools I touch often</h2>
+        <p class="muted">These will evolve over time as I go deeper.</p>
+        <div class="badges">
+          <span class="badge">Wireshark</span>
+          <span class="badge">Nmap</span>
+          <span class="badge">Burp Suite</span>
+          <span class="badge">Linux</span>
+          <span class="badge">Windows</span>
+          <span class="badge">TryHackMe</span>
+          <span class="badge">PortSwigger</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="grid twocol">
+      <div class="card">
+        <h2>Now</h2>
+        <ul class="list">
+          <li>ALX labs + SOC-focused practice</li>
+          <li>PortSwigger: SQLi, Auth, Access Control</li>
+          <li>Publishing write-ups consistently</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Next</h2>
+        <ul class="list">
+          <li>More structured SOC case studies</li>
+          <li>Basic MITRE ATT&CK mapping in write-ups</li>
+          <li>Entry-level SOC applications</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">© 2026 Whambuoy</div>
+  </main>
 </body>
 </html>
