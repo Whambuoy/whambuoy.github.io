@@ -1,38 +1,55 @@
-<!doctype html>
-<html lang="en">
-<head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width,initial-scale=1" />
-  <title>Whambuoy | Cybersecurity Portfolio</title>
-  <link rel="stylesheet" href="assets/css/style.css" />
-</head>
 <body>
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="portfolio.html">Portfolio</a>
-    <a href="writeups.html">Write-ups</a>
-    <a href="contact.html">Contact</a>
-  </nav>
-
-  <div class="card">
-    <h1>Whambuoy</h1>
-    <p class="muted">ALX Cybersecurity • SOC-first • Web Security / Pentesting portfolio</p>
-    <p>
-      I’m building hands-on cybersecurity skills through ALX, TryHackMe, and PortSwigger—focused on
-      SOC analysis (logs, triage, incident basics) while growing a web security portfolio.
-    </p>
+  <div class="topbar">
+    <div class="container nav">
+      <a class="brand" href="index.html"><span class="logo"></span> Whambuoy</a>
+      <div class="links">
+        <a class="active" href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="portfolio.html">Portfolio</a>
+        <a href="writeups.html">Write-ups</a>
+        <a href="contact.html">Contact</a>
+      </div>
+    </div>
   </div>
 
-  <div class="card">
-    <h2>What I’m aiming for</h2>
-    <ul>
-      <li>SOC / Security Analyst internship or entry role</li>
-      <li>Strong documentation + clear write-ups</li>
-      <li>Web security specialization (OWASP Top 10, Burp Suite)</li>
-    </ul>
-  </div>
+  <main class="container">
+    <section class="hero">
+      <div class="kicker"><span class="dot"></span> ALX Cybersecurity • SOC-first • Web Security</div>
+      <h1>Cybersecurity portfolio (Kenya-based, global-ready).</h1>
+      <p class="sub">
+        I’m building hands-on cybersecurity skills through ALX, TryHackMe, and PortSwigger—focused on
+        <strong>SOC analysis</strong> (logs, triage, incident basics) while growing a <strong>web security</strong> portfolio.
+      </p>
 
-  <footer>© 2026 Whambuoy • Built on GitHub Pages</footer>
+      <div class="btnrow">
+        <a class="btn primary" href="portfolio.html">View Portfolio</a>
+        <a class="btn" href="writeups.html">Read Write-ups</a>
+        <a class="btn" href="contact.html">Contact</a>
+      </div>
+    </section>
+
+    <div class="grid twocol">
+      <div class="card">
+        <h2>What I’m aiming for</h2>
+        <p class="muted">Entry-level SOC / Security Analyst role, then deeper web security specialization.</p>
+        <ul>
+          <li>SOC: alert triage, log correlation, IR basics</li>
+          <li>Web: OWASP Top 10 + PortSwigger labs</li>
+          <li>Clear documentation + professional write-ups</li>
+        </ul>
+      </div>
+
+      <div class="card">
+        <h2>Right now</h2>
+        <p class="muted">Current learning stack and next milestones.</p>
+        <ul>
+          <li>ALX Cybersecurity program</li>
+          <li>TryHackMe: SOC-focused rooms</li>
+          <li>PortSwigger: SQLi, Auth, Access Control</li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer">© 2026 Whambuoy • Built on GitHub Pages</div>
+  </main>
 </body>
-</html>
