@@ -1,1 +1,6 @@
-
+body{font-family:system-ui,Arial,sans-serif;max-width:980px;margin:40px auto;padding:0 16px;line-height:1.6}
+nav a{margin-right:12px;text-decoration:none;font-weight:600}
+nav a:hover{text-decoration:underline}
+.card{border:1px solid #e5e7eb;border-radius:14px;padding:16px;margin:14px 0}
+.muted{color:#555}
+footer{margin:30px 0;color:#666;font-size:13px}
