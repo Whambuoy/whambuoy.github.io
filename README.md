@@ -1,6 +1,6 @@
 ## Hi there 👋 I’m Whambuoy
 
-🔐 **Cybersecurity learner (ALX)**  
+🔐 **Cybersecurity learner**  
 🛡️ SOC-first • Web Security / Pentesting  
 🌍 Kenya-based • Global-ready
 
